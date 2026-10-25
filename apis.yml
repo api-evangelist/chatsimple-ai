@@ -1,25 +1,97 @@
 aid: chatsimple-ai
+
 name: Chatsimple
-description: 'Chatsimple is a company surfaced via the API Evangelist harvest backlog (source: vc-portfolio;
-  backed by 500-global) and added to the network as a stub for full-pipeline profiling.'
+
+image: https://www.expertise.ai/images/og-image-homepage-agents.jpg
+
+description: 'Expertise AI provides enterprise AI agents that automate sales and customer‑support conversations. The agents use a company’s knowledge, systems and workflows to answer buyers, book meetings and resolve support requests across chat, voice, video and phone. The service is targeted at enterprises that need high‑volume, multi‑channel conversational automation.'
+
 url: https://raw.githubusercontent.com/api-evangelist/chatsimple-ai/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:vc-portfolio
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-25 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-25'
+
 modified: '2026-10-25'
+
 tags:
-- Company
-apis: []
+- Enterprise AI
+- Customer Support
+- Multi‑Channel
+- AI Deployment
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
-x-backed-by:
-- 500-global
+
 common:
+- type: ChangeLog
+  url: changelog/chatsimple-ai-changelog.yml
+- type: Compliance
+  url: https://www.expertise.ai/security
+- type: LLMsTxt
+  url: llms/chatsimple-ai-llms.txt
+- type: WellKnown
+  url: well-known/chatsimple-ai-well-known.yml
+- type: Hosts
+  url: hosts/chatsimple-ai-hosts.yml
+- type: Vendors
+  url: vendors/chatsimple-ai-vendors.yml
+- type: TermsOfService
+  url: https://www.expertise.ai/terms-of-service
+- type: StatusPage
+  url: https://status.expertise.ai
+- type: Security
+  url: https://www.expertise.ai/security
+- type: Roadmap
+  url: https://www.expertise.ai/roadmap
+- type: PrivacyPolicy
+  url: https://www.expertise.ai/privacy-policy
+- type: Pricing
+  url: https://www.expertise.ai/pricing
+- type: ChangeLog
+  url: https://www.expertise.ai/changelog
+- type: Blog
+  url: https://www.expertise.ai/blog
+- type: GettingStarted
+  url: https://www.expertise.ai/skills/client-onboarding
+- type: Documentation
+  url: https://docs.chatsimple.ai/
+- type: TrustCenter
+  url: security/chatsimple-ai-trust-center.yml
+- type: DomainSecurity
+  url: security/chatsimple-ai-domain-security.yml
 - type: Website
   url: https://chatsimple.ai
+
+apis: []
+
+x-backed-by:
+- 500-global
+
+x-coverage:
+  state: none
+  reason: no-developer-program
+  method: derived
+  generated: '2026-10-25'
+  generator: derive-coverage.py (pre-flight evidence)
+  detail: >-
+    the company publishes no developer documentation host and no machine-readable contract on its own domain
+  evidence:
+  - url: https://chatsimple.ai
+    status: 200
+x-enrichment:
+  date: '2026-10-25'
+  status: enriched
+  artifacts_added: 12
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

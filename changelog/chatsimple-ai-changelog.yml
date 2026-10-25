@@ -1,0 +1,84 @@
+generated: '2026-10-25'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://www.expertise.ai/changelog
+sources:
+- https://www.expertise.ai/changelog
+entries:
+- breaking: false
+  highlights:
+  - A redesigned Leads page
+  - The Leads page now separates people who actually talked to your agent from visitors identified automatically, with a filter for your ideal
+    customer profile.
+  version: '2026-10-07'
+  date: '2026-10-07'
+- breaking: false
+  highlights:
+  - Both your agents, one dashboard
+  - Your website agent and your AI agent now live in one dashboard at my.expertise.ai.
+  version: '2026-10-01'
+  date: '2026-10-01'
+- breaking: false
+  highlights:
+  - Your website agent now takes instructions
+  - Update your website agent by asking. Tell your AI agent to add a PDF to training, re-read your pricing page, change a playbook or pause the
+    bot, and it does the work and shows you what changed.
+  version: '2026-09-29'
+  date: '2026-09-29'
+- breaking: false
+  highlights:
+  - Your website agent has an avatar now
+  - Visitors can now talk to your website agent on a live video call.
+  version: '2026-09-27'
+  date: '2026-09-27'
+- breaking: false
+  highlights:
+  - Update HubSpot from a spreadsheet
+  - Hand your AI agent a spreadsheet and it updates HubSpot for you, with a dry run first so you can check every change before it is applied.
+  version: '2026-09-25'
+  date: '2026-09-25'
+- breaking: false
+  highlights:
+  - Chat details fill in the contact form
+  - When a visitor shares their name, email and what they need in the chat, your website agent now fills in your contact form for them.
+  version: '2026-09-24'
+  date: '2026-09-24'
+- breaking: false
+  highlights:
+  - A faster widget
+  - The chat widget now loads in about 30 milliseconds, so it is ready the moment your page is.
+  version: '2026-09-21'
+  date: '2026-09-21'
+- breaking: false
+  highlights:
+  - GPT-6 is now live
+  - Every conversation on Expertise now runs on GPT-6, OpenAI's newest model.
+  version: '2026-09-15'
+  date: '2026-09-15'
+- breaking: false
+  highlights:
+  - Knowledge-gap themes and region-based consent
+  - Analytics now groups the questions your website agent could not answer into themes, so you know exactly what to add to its training next.
+  version: '2026-09-11'
+  date: '2026-09-11'
+- breaking: false
+  highlights:
+  - Build a website agent from inside ChatGPT
+  - Expertise is now available in ChatGPT. Give it your website URL and get a working AI agent trained on your site in about a minute.
+  version: '2026-09-08'
+  date: '2026-09-08'
+- breaking: false
+  highlights:
+  - Import your Claude skills
+  - Already built skills in Claude? Bring them into Expertise and run them as agents, with your connected tools, schedules and approvals.
+  version: '2026-08-26'
+  date: '2026-08-26'
+- breaking: false
+  highlights:
+  - Bring your own MCP servers
+  - Connect any tool that has an MCP server. Add it yourself from the Connections page, and your AI agent can use it alongside the built-in connectors.
+  version: '2026-08-24'
+  date: '2026-08-24'
+current_version: '2026-10-07'
+note: Versioning scheme is date-based (YYYY-MM-DD).
+docs: https://www.expertise.ai/changelog

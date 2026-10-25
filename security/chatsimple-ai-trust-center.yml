@@ -1,0 +1,14 @@
+generated: '2026-10-25'
+method: searched
+probe: true
+source: https://www.expertise.ai/security
+url: https://www.expertise.ai/security
+certifications:
+- SOC 2
+- HIPAA
+evidence:
+- source: https://www.expertise.ai/security
+  keywords:
+  - soc 2
+  - hipaa
+  - trust center
